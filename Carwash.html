@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Wash</title>
+  <style>
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0000FF;
+      color: #fff;
+      text-align: Topleft;
+      padding: 1em;
+    }
+
+    nav {
+      background-color: #0000FF;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1em;
+    }
+
+    section {
+      margin: 2em;
+    }
+
+    .home-section {
+      text-align: center;
+      background: url('https://via.placeholder.com/1600x500') center/cover no-repeat; 
+      padding: 4em 0;
+      color: #fff;
+    }
+
+    .packages-section {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .service-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgb(0, 0, 255);
+      margin: 1em;
+      padding: 1em;
+      text-align: center;
+      background-color: #fff;
+      max-width: 300px;
+    }
+
+    .service-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .service-card h2 {
+      color: rgb(0, 0, 255);
+    }
+
+    .service-card p {
+      color: rgb(0, 0, 255);
+    }
+
+    .about-us-section {
+      text-align: center;
+      background-color: rgb(0, 0, 255);
+      padding: 2em;
+    }
+
+    .contact-us-section {
+      text-align: center;
+    }
+
+    footer {
+      background-color: rgb(0, 0, 255);
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#packages">Packages</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <header>
+    <h1> Car Wash </h1>
+  </header>
+
+  <section id="home" class="home-section">
+    <h2>Welcome to Car Wash </h2>
+    <p>Your one-stop solution for premium car wash services.</p>
+  </section>
+
+  <section id="packages" class="packages-section">
+    <div class="service-card">
+      <img src="https://via.placeholder.com/300" alt="Car Wash Service 1">
+      <h2>Exterior Wash</h2>
+      <p>Includes exterior wash and drying</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://via.placeholder.com/300" alt="Car Wash Service 2">
+      <h2>Interior & Exterior</h2>
+      <p>Basic wash + interior vacuuming</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://via.placeholder.com/300" alt="Car Wash Service 3">
+      <h2>Complete Detailing</h2>
+      <p>Interior and exterior detailing</p>
+    </div>
+  </section>
+
+  <section id="about" class="about-us-section">
+    <h2>About Us</h2>
+    <p>Car Wash is dedicated to providing top-notch car wash services. Our team is committed to delivering quality, attention to detail, and customer satisfaction.</p>
+    <p>With state-of-the-art equipment and premium cleaning products, we ensure your car receives the care it deserves. Whether it's a quick exterior wash or a comprehensive interior and exterior detailing, we've got you covered.</p>
+  </section>
+
+  <section id="contact" class="contact-us-section">
+    <h2>Contact Us</h2>
+    <p>For inquiries and appointments, please reach out to us at example@example.com or call us at 123-456-7890.</p>
+  </section>
+
+  <footer>
+    <p>Contact us: example@example.com | Phone: 123-456-7890</p>
+  </footer>
+</body>
+
+</html>
